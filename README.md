@@ -1,12 +1,12 @@
-# BoosTMail - E-Posta Sistemi 📧
+# BoosTMail - Local E-mail System 📧
 
-**Marmara Üniversitesi - Teknoloji Fakültesi**
-**Bilgisayar Mühendisliği Bölümü**
-**BLM2005 – Nesne Yönelimli Programlama Proje Dokümantasyonu**
+**Marmara University - Faculty of Technology**
+**Department of Computer Engineering**
+**BLM2005 – Object-Oriented Programming Project Documentation**
 
 ---
 
-## 👥 Hazırlayanlar
+## 👥 Contributors
 * **Ahmet Bera YÜRÜK** - 170424057
 * **Yunus Emir GEMİCİ** - 170424009
 * **Oğuzhan DÜNDAR** - 170424004
@@ -14,40 +14,40 @@
 
 ---
 
-## 🎯 Proje Amacı
-Bu projenin amacı, yerel bir e-posta sistemi üzerinden kullanıcılar arasında posta alışverişini sağlamaktır. Mevcut bir hesaptan, sistemde kayıtlı olan diğer posta hesaplarına ileti gönderilmesine imkan tanır.
+## 🎯 Project Purpose
+The goal of this project is to facilitate local e-mail communication between users. It allows users to send messages from their current account to other registered accounts within the system.
 
 ---
 
-## 🛠 Proje Fonksiyonları
+## 🛠 Key Features
 
-### 1. Kullanıcı Doğrulama İşlemleri
-* **Giriş ve Kayıt:** Kullanıcılar mevcut hesaplarına giriş yapabilir veya "Kayıt Ol" sekmesinden yeni bir hesap oluşturabilir.
-* **Beni Hatırla:** Bu özellik sayesinde kullanıcılar hesap bilgilerini sonraki girişler için kaydedebilir.
-* **Profil Yönetimi:** Kayıt sırasında profil fotoğrafı eklenebilir.
-* **Kayıtlı Hesaplar:** Hızlı erişim için daha önce girilen hesaplar bir listede tutulur ve istenildiğinde buradan kolayca giriş yapılabilir.
+### 1. User Authentication
+* **Login & Registration:** Users can sign in to existing accounts or create a new profile via the "Register" function.
+* **Remember Me:** This feature securely saves user credentials for faster access in future sessions.
+* **Profile Management:** Users can select and upload a profile picture during registration.
+* **Recent Accounts:** Previously accessed accounts are listed for quick switching and management.
 
-### 2. E-Posta Yönetimi
-* **Gelen Kutusu:** Alınan postaların listelendiği ve okunduğu ana paneldir.
-* **Gönderilen Kutusu:** Kullanıcının gönderdiği iletilerin takibini sağlar.
-* **Yıldızlı Postalar:** Önemli görülen iletilerin filtrelenerek ayrı bir bölümde gösterilmesini sağlar.
-* **Yeni E-Posta:** Alıcı adresi, konu ve içerik girilerek yeni iletiler oluşturulur.
+### 2. E-mail Management
+* **Inbox:** The main dashboard where incoming messages are listed and read.
+* **Sent Box:** Tracks all outgoing messages sent by the user.
+* **Starred Messages:** Allows users to filter and highlight important emails for quick access.
+* **Compose Email:** A user-friendly editor to create new messages with subject lines and body text.
 
-### 3. Ek Özellikler
-* **Karanlık ve Aydınlık Mod:** Kullanıcı arayüzü tercihe göre koyu veya açık temaya geçebilir.
-* **Silme İşlevi:** İletiler onay penceresi aracılığıyla sistemden kaldırılabilir.
-
----
-
-## 💻 Teknik Mimari ve Sonuç
-* **JavaFX:** Uygulamanın modern ve kullanıcı dostu arayüzü JavaFX kütüphanesi ile geliştirilmiştir.
-* **OOP Prensipleri:** Proje, Nesne Yönelimli Programlama ilkelerine uygun modüler bir yapıda tasarlanmıştır.
-* **Veri Saklama:** Mesajlar ve kullanıcı kayıtları yerel dosya sisteminde yapılandırılmış şekilde saklanır.
-* **Hata Yönetimi:** Form işlemlerinde ve girişlerde oluşabilecek hatalar önceden tespit edilerek uygulamanın çökmesi engellenmiştir.
+### 3. Advanced UI Features
+* **Dark & Light Mode:** The interface can toggle between dark and light themes based on user preference.
+* **Delete Functionality:** Messages can be removed from the system with a secure confirmation dialog.
 
 ---
 
-## 📚 Kaynakça
+## 💻 Technical Architecture
+* **JavaFX:** The modern and responsive GUI was built using the JavaFX library.
+* **OOP Principles:** Designed with a modular structure strictly following Object-Oriented Programming principles.
+* **Data Persistence:** Messages and user data are stored in a structured format within the local file system.
+* **Error Handling:** Robust validation prevents crashes by handling form errors and invalid login attempts gracefully.
+
+---
+
+## 📚 References
 1. [W3Schools Java Reference](https://www.w3schools.com/java/java_ref_reference.asp)
-2. Marmara Üniversitesi BLM2005 Ders Notları
+2. Marmara University BLM2005 Lecture Notes
 3. [Bro Code - JavaFX GUI Full Course](https://www.youtube.com/watch?v=9XJicRt_FaI)
